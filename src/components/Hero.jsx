@@ -54,7 +54,7 @@ import Header from "./common/Header";
 
 const Hero = () => {
     return (
-        <div className="bg-[#1C2430] min-h-[682px] relative overflow-hidden">
+        <div className="min-h-[682px] relative overflow-hidden">
             <Header />
             <div className="max-w-[880px] mx-auto xl:px-4 lg:px-0 px-4">
                 <div className="">
