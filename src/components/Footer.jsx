@@ -6,7 +6,7 @@ import Twitter from "../assets/images/svg/twitter.svg";
 
 const Footer = () => {
     return (
-        <div className="py-5 relative bg-[#245AAB] min-h-[174px] overflow-hidden">
+        <div className="py-5 relative bg-[#245AAB] min-h-[174px] overflow-hidden max-w-[1920px] mx-auto">
             <img
                 className="absolute hidden md:block lg:w-[355px] w-[300px] left-0 bottom-0 pointer-events-none"
                 src={LeftImage}

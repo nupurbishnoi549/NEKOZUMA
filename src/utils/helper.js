@@ -6,14 +6,14 @@ import sliderImg5 from '../assets/images/webp/slider-image5.webp'
 import sliderImg6 from '../assets/images/webp/slider-image6.webp'
 import sliderImg7 from '../assets/images/webp/slider-image7.webp'
 import sliderImg8 from '../assets/images/webp/slider-image8.webp'
-import Image1 from '../assets/images/webp/team-image1.webp'
-import Image2 from '../assets/images/webp/team-image2.webp'
-import Image3 from '../assets/images/webp/team-image3.webp'
-import Image4 from '../assets/images/webp/team-image4.webp'
-import Image5 from '../assets/images/webp/team-image5.webp'
-import Image6 from '../assets/images/webp/team-image6.webp'
-import Image7 from '../assets/images/webp/team-image7.webp'
-import Image8 from '../assets/images/webp/team-image8.webp'
+import teamImage1 from '../assets/images/webp/team-image1.webp'
+import teamImage2 from '../assets/images/webp/team-image2.webp'
+import teamImage3 from '../assets/images/webp/team-image3.webp'
+import teamImage4 from '../assets/images/webp/team-image4.webp'
+import teamImage5 from '../assets/images/webp/team-image5.webp'
+import teamImage6 from '../assets/images/webp/team-image6.webp'
+import teamImage7 from '../assets/images/webp/team-image7.webp'
+import teamImage8 from '../assets/images/webp/team-image8.webp'
 
 export const SLIDER_LEFT_IMAGES_LIST = [
     sliderImg1,
@@ -43,12 +43,12 @@ export const SLIDER_RIGHT_IMAGES_LIST = [
 
 
 export const TEAM_MEMBERS_LIST = [
-    { name: 'Jedi Trinupab', role: 'Founder', image: Image1 },
-    { name: 'Suptoshi', role: 'Co Founder', image: Image2 },
-    { name: 'Korn', role: 'Artist', image: Image3 },
-    { name: 'Karmic Labs', role: 'Development', image: Image4 },
-    { name: 'Jedi Trinupab', role: 'Position', image: Image5 },
-    { name: 'Jedi Trinupab', role: 'Position', image: Image6 },
-    { name: 'Jedi Trinupab', role: 'Position', image: Image7 },
-    { name: 'Jedi Trinupab', role: 'Position', image: Image8 },
+    { name: 'Jedi Trinupab', role: 'Founder', image: teamImage1 },
+    { name: 'Suptoshi', role: 'Co Founder', image: teamImage2 },
+    { name: 'Korn', role: 'Artist', image: teamImage3 },
+    { name: 'Karmic Labs', role: 'Development', image: teamImage4 },
+    { name: 'Jedi Trinupab', role: 'Position', image: teamImage5 },
+    { name: 'Jedi Trinupab', role: 'Position', image: teamImage6 },
+    { name: 'Jedi Trinupab', role: 'Position', image: teamImage7 },
+    { name: 'Jedi Trinupab', role: 'Position', image: teamImage8 },
 ];
