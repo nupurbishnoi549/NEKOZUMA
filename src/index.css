@@ -9,11 +9,38 @@ body {
 
 @font-face {
   font-family: 'franklin';
-  src: url("/assets/fonts/FranklinGothic-Heavy.otf") format("opentype");
+  src: url("../src/assets/fonts/FranklinGothic-Heavy.otf") format("opentype");
   font-weight: 700;
 }
 
 .ff-franklin {
   font-family: 'franklin', sans-serif;
   font-weight: 700;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+.slider-left {
+  animation: scrollLeft 18s linear infinite;
+  display: flex;
+}
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+.slider-right {
+  animation: scrollRight 18s linear infinite;
 }

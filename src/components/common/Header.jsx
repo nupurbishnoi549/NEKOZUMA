@@ -7,7 +7,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="text-white max-md:px-6 py-4 flex items-center justify-between relative z-50">
+        <header className="text-white max-md:px-6 max-lg:py-4 flex items-center justify-between relative z-50">
             <img src={Logo} alt="Logo" className="w-[180px] md:w-[280px] object-contain" />
 
             {/* Desktop Navigation */}
