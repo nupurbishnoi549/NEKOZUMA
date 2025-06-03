@@ -9,15 +9,13 @@ const Header = () => {
     return (
         <header className="text-white max-md:px-6 max-lg:py-4 flex items-center justify-between relative z-50">
             <img src={Logo} alt="Logo" className="w-[180px] md:w-[280px] object-contain" />
-
-            {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
                 <ul className="flex items-center gap-6 text-sm font-medium">
                     <li><a href="#overview" className="hover:text-blue-400 duration-200">Overview</a></li>
                     <li><a href="#story" className="hover:text-blue-400 duration-200">Story</a></li>
                     <li><a href="#team" className="hover:text-blue-400 duration-200">Team</a></li>
                 </ul>
-                <div className="flex items-center gap-4 mr-20">
+                <div className="flex items-center gap-4 xl:mr-56 lg:mr-20">
                     <a href="https://discord.com/channels" target="_blank" rel="noopener noreferrer">
                         <img src={Discord} alt="Discord" className="w-6 h-6" />
                     </a>
@@ -26,15 +24,11 @@ const Header = () => {
                     </a>
                 </div>
             </nav>
-
-            {/* Hamburger Toggle Button */}
             <div className="md:hidden z-50">
                 <button onClick={() => setMenuOpen(!menuOpen)} className="text-white focus:outline-none text-4xl">
                     {menuOpen ? "✕" : "☰"}
                 </button>
             </div>
-
-            {/* Fullscreen Mobile Menu */}
             {menuOpen && (
                 <div className="fixed top-0 left-0 w-full h-screen bg-black flex flex-col items-center justify-center gap-8 z-40 text-lg transition-all duration-300">
                     <a href="#overview" onClick={() => setMenuOpen(false)} className="hover:text-blue-400">Overview</a>

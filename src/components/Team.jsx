@@ -5,21 +5,19 @@ import Description from './common/Description';
 
 const Team = () => {
     return (
-        <div id='team' className='pb-28 pt-16 px-4'>
+        <div id='team' className='md:pb-28 pb-16 pt-16 px-4'>
             <div className='max-w-[880px] mx-auto'>
                 <h2 className='font-normal text-[43px] pb-9 leading-[100%] text-[#3586FF] ff-franklin text-center'>Team</h2>
                 <div className='flex flex-wrap gap-6 justify-center'>
                     {TEAM_MEMBERS_LIST.map((member, index) => (
                         <div
                             key={index}
-                            className='max-w-xs rounded-lg w-[202px] text-center text-white'
+                            className='max-w-xs rounded-lg w-full md:w-[202px] text-center text-white'
                         >
                             <img
-                                className='mx-auto mb-6 object-cover'
+                                className='mx-auto md:size-[202px] mb-6 object-cover pointer-events-none'
                                 src={member.image}
                                 alt={member.name}
-                                width={202}
-                                height={202}
                             />
                             <h3 className='font-normal text-2xl leading-[100%] text-[#3586FF] ff-franklin text-center mb-2'>{member.role}</h3>
                             <p className='text-sm mb-2'>{member.name}</p>

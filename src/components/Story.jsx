@@ -17,7 +17,7 @@ const Story = () => {
                 </div>
             </div>
             <div className='pt-14'>
-                <img src={StoryImg} alt="StoryImg" />
+                <img src={StoryImg} alt="StoryImg" className='pointer-events-none' />
           </div>
         </div >
 
