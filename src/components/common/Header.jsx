@@ -7,8 +7,8 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="text-white max-md:px-6 max-md:py-4 flex items-center justify-between relative z-50">
-            <img src={Logo} alt="Logo" className="w-[180px] md:w-[280px] object-contain" />
+        <header className="text-white max-md:px-2 max-md:py-2 flex items-center justify-between relative z-50">
+            <img src={Logo} alt="Logo" className="w-[240px] lg:w-[480px] md:w-[300px] object-contain cursor-pointer" />
             <nav className="hidden md:flex items-center gap-8">
                 <ul className="flex items-center gap-6 text-sm font-medium">
                     <li><a href="#overview" className="hover:text-blue-400 duration-200">Overview</a></li>
@@ -25,7 +25,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className="md:hidden z-50">
-                <button onClick={() => setMenuOpen(!menuOpen)} className="text-white focus:outline-none text-4xl">
+                <button onClick={() => setMenuOpen(!menuOpen)} className="text-white focus:outline-none text-5xl">
                     {menuOpen ? "✕" : "☰"}
                 </button>
             </div>
