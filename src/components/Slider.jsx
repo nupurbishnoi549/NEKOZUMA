@@ -10,7 +10,7 @@ const Slider = () => {
                         key={index}
                         src={src}
                         alt={`slider-left-${index + 1}`}
-                        className="pointer-events-none w-[320px] h-[320px] object-cover"
+                        className="pointer-events-none w-[320px] lg:h-[320px] h-[200px] object-cover"
                     />
                 ))}
             </div>
@@ -21,7 +21,7 @@ const Slider = () => {
                         key={index}
                         src={src}
                         alt={`slider-right-${index + 1}`}
-                        className="pointer-events-none w-[320px] h-[320px] object-cover"
+                        className="pointer-events-none w-[320px] lg:h-[320px] h-[200px] object-cover"
                     />
                 ))}
             </div>
