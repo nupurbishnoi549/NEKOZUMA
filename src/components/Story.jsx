@@ -4,7 +4,7 @@ import StoryImg from '../assets/images/webp/story-image.webp'
 
 const Story = () => {
     return (
-        <div class="bg-[#1C2430] pt-[48px]">
+        <div id='story' class="bg-[#1C2430] pt-[48px]">
             <div class="max-w-[880px] px-4 mx-auto">
                 <div>
                     <h1 class="font-normal text-[43px] leading-[100%] text-[#3586FF] ff-franklin text-center">Story</h1>

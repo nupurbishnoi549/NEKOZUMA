@@ -5,6 +5,7 @@ html,
 body {
   background-color: #1C2430 !important;
   font-family: "Sarabun", sans-serif !important;
+  scroll-behavior: smooth;
 }
 
 @font-face {

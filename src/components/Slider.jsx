@@ -3,7 +3,7 @@ import { SLIDER_LEFT_IMAGES_LIST, SLIDER_RIGHT_IMAGES_LIST } from "../utils/help
 
 const Slider = () => {
     return (
-        <div className="overflow-hidden mx-auto max-w-[1920px]">
+        <div id="overview" className="overflow-hidden mx-auto max-w-[1920px]">
             <div className="flex slider-left">
                 {SLIDER_LEFT_IMAGES_LIST.map((src, index) => (
                     <img
