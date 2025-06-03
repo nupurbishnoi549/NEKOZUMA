@@ -11,10 +11,12 @@ const Hero = () => {
             <div className="max-w-[880px] mx-auto xl:px-4 lg:px-0 px-4">
                 <div>
                     <div className="text-center lg:text-left z-10 lg:pt-[169px] pt-10">
-                        <div className="w-40 h-[2px] bg-[#3586FF] mx-auto lg:mx-0 mb-4" />
+                        <div className="w-40 h-[2px] bg-[#3586FF] mx-auto lg:mx-0 " />
                         <h2 className='font-normal md:text-[64px] text-5xl pb-3 text-[#3586FF] ff-franklin'>NEKOZUMA</h2>
                         <Description DescriptionText="The collection  of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs." className="lg:!max-w-[502px] !text-base max-lg:!mx-auto" />
-                        <button className='bg-[#245AAB] py-2 px-6 lg:mt-11 mt-7 rounded-lg cursor-pointer text-white'>Connect Wallet</button>
+                        <button className="bg-[#245AAB] hover:bg-[#1c4586] transition-all duration-300 py-2 px-6 lg:mt-11 mt-7 rounded-lg cursor-pointer text-white">
+                            Connect Wallet
+                        </button>
                     </div>
 
                     <div className="absolute right-0  xl:top-[12%] lg:top-[17%] md:top-[42%] top-[48%] mt-8 md:mt-0">
