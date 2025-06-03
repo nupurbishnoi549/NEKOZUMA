@@ -4,6 +4,7 @@ import Story from './components/Story'
 import Team from './components/Team'
 import Slider from './components/Slider'
 import Footer from './components/Footer'
+import BackToTop from './components/BackToTop'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Slider/>
       <Story />
       <Team />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </>
   )
 }
