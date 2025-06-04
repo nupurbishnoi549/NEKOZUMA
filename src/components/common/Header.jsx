@@ -5,6 +5,9 @@ import logo from "../../assets/images/webp/header-image.webp";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const mobileBtnClass = menuOpen
+        ? "fixed top-1 right-5 z-[53]"
+        : "absolute top-1 right-5 z-[52]";
 
     return (
         <div className="text-white flex items-center justify-between relative z-50 max-w-[1920px] mx-auto">
@@ -27,14 +30,16 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-            <div className="md:hidden fixed top-0 right-5 z-[52]">
+            <div className={`md:hidden ${mobileBtnClass}`}>
                 <button
-                    onClick={() => setMenuOpen(!menuOpen)}
+                    onClick={() => setMenuOpen((prev) => !prev)}
                     className="text-white text-3xl focus:outline-none"
+                    aria-label={menuOpen ? "Close menu" : "Open menu"}
                 >
                     {menuOpen ? "✕" : "☰"}
                 </button>
             </div>
+
             {menuOpen && (
                 <div className="fixed top-0 left-0 w-full h-screen bg-black overflow-hidden flex flex-col items-center justify-center gap-6 z-[51] text-lg">
                     <a href="#overview" onClick={() => setMenuOpen(false)} className="hover:text-blue-400">Overview</a>
