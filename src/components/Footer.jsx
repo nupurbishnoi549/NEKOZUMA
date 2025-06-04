@@ -1,20 +1,20 @@
 import React from 'react';
-import LeftImage from '../assets/images/webp/footer-left-image.webp'
-import RightImage from '../assets/images/webp/footer-right-image.webp'
-import Discord from "../assets/images/svg/discord.svg";
-import Twitter from "../assets/images/svg/twitter.svg";
+import leftImage from '../assets/images/webp/footer-left-image.webp'
+import rightImage from '../assets/images/webp/footer-right-image.webp'
+import discord from "../assets/images/svg/discord.svg";
+import twitter from "../assets/images/svg/twitter.svg";
 
 const Footer = () => {
     return (
         <div className="py-5 relative bg-[#245AAB] min-h-[174px] overflow-hidden max-w-[1920px] mx-auto">
             <img
                 className="absolute hidden md:block lg:w-[355px] w-[300px] left-0 bottom-0 pointer-events-none"
-                src={LeftImage}
+                src={leftImage}
                 alt="left-footer"
             />
             <img
                 className="absolute hidden md:block lg:w-[564px] w-[450px] right-0 bottom-0 pointer-events-none"
-                src={RightImage}
+                src={rightImage}
                 alt="right-footer"
             />
             <div className="container mx-auto px-4">
@@ -32,7 +32,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src={Discord}
+                            src={discord}
                             alt="discord"
                             width={32}
                             height={32}
@@ -45,7 +45,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src={Twitter}
+                            src={twitter}
                             alt="twitter"
                             width={32}
                             height={32}

@@ -20,28 +20,35 @@ body {
 }
 
 @keyframes scrollLeft {
-  from {
+  0% {
     transform: translateX(0);
   }
 
-  to {
+  100% {
     transform: translateX(-50%);
   }
-}
-.slider-left {
-  animation: scrollLeft 18s linear infinite;
-  display: flex;
 }
 
 @keyframes scrollRight {
-  from {
+  0% {
     transform: translateX(-50%);
   }
 
-  to {
+  100% {
     transform: translateX(0);
   }
 }
+
+.slider-left,
+.slider-right {
+  display: flex;
+  width: max-content;
+}
+
+.slider-left {
+  animation: scrollLeft 18s linear infinite;
+}
+
 .slider-right {
   animation: scrollRight 18s linear infinite;
 }
