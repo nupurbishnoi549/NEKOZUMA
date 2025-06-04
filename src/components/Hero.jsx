@@ -10,7 +10,7 @@ const Hero = () => {
             <Header />
             <div className="max-w-[880px] mx-auto xl:px-4 lg:px-0 px-4">
                 <div>
-                    <div className="text-center lg:text-left z-10 lg:pt-[169px] pt-10">
+                    <div className="text-center lg:text-left z-10 lg:pt-[169px] pt-10 md:pt-18">
                         <div className="w-40 h-[2px] bg-[#3586FF] mx-auto lg:mx-0 " />
                         <h2 className='font-normal md:text-[64px] text-4xl pb-3 text-[#3586FF] ff-franklin'>NEKOZUMA</h2>
                         <Title titleText="The collection  of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs." myClass="lg:!max-w-[502px] !text-base max-lg:!mx-auto" />

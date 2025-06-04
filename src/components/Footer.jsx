@@ -31,11 +31,9 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img
+                        <img className='size-8'
                             src={discord}
                             alt="discord"
-                            width={32}
-                            height={32}
                         />
                     </a>
                     <a
@@ -44,11 +42,10 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img
+                        <img className='size-8'
                             src={twitter}
                             alt="twitter"
-                            width={32}
-                            height={32}
+                           
                         />
                     </a>
                 </div>

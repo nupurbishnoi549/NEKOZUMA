@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div className="text-white flex items-center justify-between relative z-50 max-w-[1920px] mx-auto">
-            <img src={logo} alt="Logo" className="w-[250px] lg:w-[480px] md:w-[300px] object-contain cursor-pointer" />
+            <img src={logo} alt="Logo" className="w-[250px] lg:w-[600px]  md:w-[300px] object-contain cursor-pointer" />
             <div className="hidden md:flex items-center gap-8">
                 <ul className="flex items-center gap-6 text-sm font-medium">
                     <li><a href="#overview" className="hover:text-blue-400 duration-200">Overview</a></li>
