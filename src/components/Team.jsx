@@ -7,7 +7,7 @@ const Team = () => {
     return (
         <div id='team' className='md:py-[61px] py-12 px-4'>
             <div className='max-w-[880px] mx-auto'>
-                <div className="w-40 h-[2px] bg-[#3586FF] mx-auto  lg:mb-14 md:mb-8 mb-5" />
+                <div className="w-40 h-[2px] bg-[#3586FF] mx-auto  xl:mb-14 lg:mb-10 mb-4" />
                 <h2 className='font-normal text-[43px] pb-9 leading-[100%] text-[#3586FF] ff-franklin text-center'>Team</h2>
                 <div className='flex flex-wrap gap-6 justify-center'>
                     {TEAM_MEMBERS_LIST.map((member, index) => (
