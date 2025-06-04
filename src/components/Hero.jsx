@@ -6,11 +6,11 @@ import Header from "./common/Header";
 
 const Hero = () => {
     return (
-        <div className="xl:min-h-[682px] lg:min-h-[543px] md:min-h-[760px] min-h-[730px] relative overflow-hidden max-w-[1920px] mx-auto">
+        <div className="xl:min-h-[682px] lg:min-h-[543px] md:min-h-[780px] min-h-[673px] relative overflow-hidden max-w-[1920px] mx-auto">
             <Header />
             <div className="max-w-[880px] mx-auto xl:px-4 lg:px-0 px-4">
                 <div>
-                    <div className="text-center lg:text-left z-10 lg:pt-[169px] pt-10 md:pt-18">
+                    <div className="text-center lg:text-left z-10 xl:pt-[169px] lg:pt-26 pt-10 md:pt-18">
                         <div className="w-40 h-[2px] bg-[#3586FF] mx-auto lg:mx-0 " />
                         <h2 className='font-normal md:text-[64px] text-4xl pb-3 text-[#3586FF] ff-franklin'>NEKOZUMA</h2>
                         <Title titleText="The collection  of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs." myClass="lg:!max-w-[502px] !text-base max-lg:!mx-auto" />
@@ -19,7 +19,7 @@ const Hero = () => {
                         </button>
                     </div>
 
-                    <div className="absolute right-0  xl:top-[12%] lg:top-[17%] md:top-[42%] top-[48%] mt-8 md:mt-0">
+                    <div className="absolute right-0  xl:top-[12%] lg:top-[17%] md:top-[43%] top-[48%]">
                         <img
                             src={heroImg}
                             alt="Nekozuma"
