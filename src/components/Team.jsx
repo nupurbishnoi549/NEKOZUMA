@@ -23,7 +23,7 @@ const Team = () => {
                             <h3 className='font-normal text-2xl leading-[100%] text-[#3586FF] ff-franklin text-center mb-2'>{member.role}</h3>
                             <p className='text-sm mb-2'>{member.name}</p>
                             <Discription titleText="  However at every junction in time, there is always a darkness that is waiting to overthrow" myClass="!mb-3 !md:max-w-[202px] !mx-auto" />
-                            <a href="#" target='_blank' rel="noopener noreferrer" className='inline-block'>
+                            <a href="https://x.com/?lang=en" target='_blank' rel="noopener noreferrer" className='inline-block'>
                                 <img src={twitter} alt='Twitter' className='w-5 h-5 mx-auto hover:scale-110 transition duration-300' />
                             </a>
                         </div>
