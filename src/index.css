@@ -41,7 +41,6 @@ body {
 .slider-left,
 .slider-right {
   display: flex;
-  width: max-content;
 }
 
 .slider-left {
