@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className="text-white flex items-center justify-between relative z-50 max-w-[1920px] mx-auto">
             <div className="relative">
-                <img src={logo} alt="Logo" className="w-[250px] xl:w-[600px] md:w-[300px] object-contain cursor-pointer" />
+                <img src={logo} alt="Logo" className="w-[250px] xl:w-[600px] 2xl:w-[910px] md:w-[300px] object-contain cursor-pointer" />
                 <h2 className="absolute xl:top-[35%] xl:right-[23%] top-[22%] right-[29%] md:font-black text-xl font-bold xl:text-3xl md:text-2xl ff-franklin">NEKOZUMA</h2>
             </div>
             <div className="hidden md:flex items-center gap-8">
