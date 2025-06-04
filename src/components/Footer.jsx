@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <a
                     href="#"
-                    className="text-center text-white text-xl font-bold block pb-4 pt-7 mb-0"
+                    className="text-center text-white text-xl font-bold block mt-7 mb-4 w-fit mx-auto"
                 >
                     NEKOZUMA
                 </a>

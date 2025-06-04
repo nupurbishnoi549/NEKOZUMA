@@ -3,7 +3,6 @@ import { SLIDER_LEFT_IMAGES_LIST, SLIDER_RIGHT_IMAGES_LIST } from "../utils/help
 const CustomSlider = () => {
     return (
         <div id="overview" className="overflow-hidden mx-auto max-w-[1920px]">
-            {/* LEFT SLIDER */}
             <div className="scroll-right flex items-center whitespace-nowrap">
                 {[...SLIDER_LEFT_IMAGES_LIST, ...SLIDER_LEFT_IMAGES_LIST].map((obj, index) => (
                     <img

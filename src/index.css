@@ -8,14 +8,13 @@ body {
 }
 
 @font-face {
-  font-family: 'franklin';
-  src: url("../src/assets/fonts/FranklinGothic-Heavy.otf") format("opentype");
+  font-family: 'FranklinBold';
+  src: url('../src/assets/fonts/FranklinGothic-Bold.otf') format('opentype');
   font-weight: 700;
 }
 
 .ff-franklin {
   font-family: 'franklin', sans-serif;
-  font-weight: 700;
 }
 
 .scroll-left {
