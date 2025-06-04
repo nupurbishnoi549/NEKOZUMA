@@ -18,16 +18,12 @@ body {
   font-weight: 700;
 }
 
-.slide-track {
-  width: max-content;
-}
-
 .scroll-left {
-  animation: scrollLeft 50s linear infinite;
+  animation: scrollLeft 20s linear infinite;
 }
 
 .scroll-right {
-  animation: scrollRight 50s linear infinite;
+  animation: scrollRight 20s linear infinite;
 }
 
 @keyframes scrollLeft {

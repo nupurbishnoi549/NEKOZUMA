@@ -4,7 +4,7 @@ const CustomSlider = () => {
     return (
         <div id="overview" className="overflow-hidden mx-auto max-w-[1920px]">
             {/* LEFT SLIDER */}
-            <div className="scroll-right slide-track flex items-center whitespace-nowrap">
+            <div className="scroll-right flex items-center whitespace-nowrap">
                 {[...SLIDER_LEFT_IMAGES_LIST, ...SLIDER_LEFT_IMAGES_LIST].map((obj, index) => (
                     <img
                         key={index}
@@ -15,8 +15,7 @@ const CustomSlider = () => {
                 ))}
             </div>
 
-            {/* RIGHT SLIDER */}
-            <div className="scroll-left slide-track flex items-center whitespace-nowrap">
+            <div className="scroll-left flex items-center whitespace-nowrap">
                 {[...SLIDER_RIGHT_IMAGES_LIST, ...SLIDER_RIGHT_IMAGES_LIST].map((obj, index) => (
                     <img
                         key={index}
